@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/banner-azul-transparente-pequenas-patas-azules_197792-3692.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.menu{
+    background-color: rgba(255, 255, 255, 0.53);
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    padding-right: 10px;
+}
+.titulo{
+    padding-left: 50px;
+    font-size: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color:rgb(118, 131, 184);
+    color: white;
+}
+.bloque1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.texto{
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(107, 153, 232, 0.379);
+    padding: 30px;
+    color: white;
+}
+h2{
+    font-size: 40px;
+    color: white;
+}
+p{  
+    font-size: 20px;
+    margin-top: 30px;
+    padding-top: 40px;
+}
